@@ -1,0 +1,6 @@
+D:/lab3/build/CMakeFiles/ALL_BUILD.dir
+D:/lab3/build/CMakeFiles/ZERO_CHECK.dir
+D:/lab3/build/src/CMakeFiles/translator.dir
+D:/lab3/build/samples/CMakeFiles/sample_prime_numbers.dir
+D:/lab3/build/gtest/CMakeFiles/gtest.dir
+D:/lab3/build/test/CMakeFiles/test_translator.dir
