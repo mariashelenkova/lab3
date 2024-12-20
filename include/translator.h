@@ -2,15 +2,15 @@
 #include <string>
 #include "stack.h"
 
-class ExpressionHandler 
+class Translator
 {
 public:
     virtual std::string convertToPostfix(const std::string& expression) = 0;
     virtual double evaluatePostfix(const std::string& postfix) = 0;
-    virtual ~ExpressionHandler() = default;
+    virtual ~Translator() = default;
 };
 
-class PostfixCalculator : public ExpressionHandler 
+class PostfixCalculator : public Translator
 {
 public:
     bool isOperator(char symbol) 
