@@ -26,7 +26,6 @@ int main(int argc, char **argv) {
         {
             try
             {
-                std::cout << ">>> ";
                 std::getline(std::cin, expression);
 
                 if (expression == "exit")

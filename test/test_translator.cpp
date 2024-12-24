@@ -16,7 +16,7 @@ TEST(PostfixCalculator, convertToPostfixHandlesOperators_sum) {
 TEST(PostfixCalculator, convertToPostfixHandlesOperators_mul) {
     PostfixCalculator calc;
 
-    EXPECT_EQ(calc.convertToPostfix("3*4"), "3 4 * ");
+    EXPECT_EQ(calc.convertToPostfix("3.9*4"), "3.9 4 * ");
 }
 
 TEST(PostfixCalculator, convertToPostfixHandlesParentheses) {
